@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define SIZE 11//皚 
-void bubbleSort(char *element1Ptr,char *element2Ptr);//獁猨逼ㄧ计 (獶盽计戈獶盽计夹) 
+void bubbleSort(int *const element1Ptr,int *const element2Ptr);//獁猨逼ㄧ计 (獶盽计戈盽计夹 ) 
 int main() {
-	char a[SIZE]={22,7,5,6,8,12,20,18,14,16,2};//皚 
+	int a[SIZE]={22,7,5,6,8,12,20,18,14,16,2};//皚 
 	int i,pass;
 	printf("Original Data\n");
 	

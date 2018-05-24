@@ -1,4 +1,4 @@
-void bubbleSort(char *element1Ptr,char *element2Ptr)
+void bubbleSort(int *const element1Ptr,int *const element2Ptr)
 {
 	int hold;
 	hold=*element1Ptr;
